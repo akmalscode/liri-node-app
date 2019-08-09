@@ -1,12 +1,6 @@
 # liri-node-app
 
 
-Inventor: Md Akmal Hossain
-
-Created on: May 4th, 2019
-
----
-
 LIRI is a Language Interpretation and Recognition Interface. 
 LIRI is a command line node app that takes in parameters and gives back data. 
 The user has the option of using four commands (listed below) in conjuntion with specific parameters associated with the commands. The Commands are:
@@ -21,7 +15,7 @@ The user has the option of using four commands (listed below) in conjuntion with
 
 ---
 
-## HOW TO USE LIRI
+## HOW TO USE
 **Example 1**: Run the `concert-this` command
     
     node liri.js concert-this <name of artist or band>
@@ -53,10 +47,11 @@ Output: The system will read the text in the random.txt file, and perform the co
 
 ---
 
-## TECHNOLOGIES USED
+## TECHNOLOGIES ARE:
 * Javascript
 * Nodejs
-* Node packages:
+
+## Node packages:
     * Node-Spotify-API
     * Request
     * Moment
@@ -64,6 +59,5 @@ Output: The system will read the text in the random.txt file, and perform the co
 * APIs used:
     * Bands in Town
     * OMDB
-* Git
-* GitHub
+
 
